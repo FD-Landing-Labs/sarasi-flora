@@ -44,7 +44,7 @@ export function Footer({ data }: FooterProps) {
   return (
     <footer id="footer" className="bg-primary-950 text-white overflow-hidden">
       {/* Main Footer Content */}
-      <div className="container px-6 md:px-12 lg:px-16 pt-16 md:pt-20 lg:pt-24">
+      <div className="px-6 md:px-12 lg:px-16 pt-16 md:pt-20 lg:pt-24">
         {/* Top Section - 3 Column Layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-16 md:mb-20">
           {/* Left Column - Brand & CTA */}

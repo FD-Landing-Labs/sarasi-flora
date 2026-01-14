@@ -101,7 +101,7 @@ export function Testimonials({ data }: TestimonialsProps) {
       id="testimonials"
       className="py-16 md:py-24 bg-stone-50 overflow-hidden"
     >
-      <div className="container px-6 md:px-12 lg:px-16">
+      <div className="px-6 md:px-12 lg:px-16">
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

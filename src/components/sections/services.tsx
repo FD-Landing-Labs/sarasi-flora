@@ -25,7 +25,7 @@ interface ServicesProps {
 export function Services({ data }: ServicesProps) {
   return (
     <section id="services" className="py-16 md:py-24 bg-background overflow-hidden">
-      <div className="container px-6 md:px-12 lg:px-16">
+      <div className="px-6 md:px-12 lg:px-16">
         {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-12 md:mb-16">
           {/* Left - Section Label & Headline */}

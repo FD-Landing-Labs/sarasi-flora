@@ -97,7 +97,7 @@ export function Marquee({ data }: MarqueeProps) {
   return (
     <section className="py-16 md:py-24 bg-stone-50 overflow-hidden">
       {/* Top Content - Centered */}
-      <div className="container px-6 md:px-12 lg:px-16 mb-12 md:mb-16">
+      <div className="px-6 md:px-12 lg:px-16 mb-12 md:mb-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
